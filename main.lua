@@ -1,5 +1,8 @@
+Object = require '/libraries/classic/classic'
+require 'objects/Test'
+
 function love.load()
-  print("Hello world!")
+  test_instance = Test()
 end
 
 function love.update(dt)
